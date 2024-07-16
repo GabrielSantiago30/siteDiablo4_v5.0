@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Diablo IV</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<style>
+    a:hover {
+        color: var(--preto);
+        text-decoration: none;
+    }
+</style>
+
+<body style="height: auto;">
+
+    <header>
+
+        <br />
+
+        <h1 style="font-size: 50px;"> DIABLO IV</h1>
+
+        <nav>
+            <ul>
+                <li style="display: inline-block;"><a href="index.html">Página Inicial</a></li>
+                <li style="display: inline-block;"><a href="galeria.html">Imagens</a></li>
+                <li style="display: inline-block;"><a href="galeria2.html" rel="prev">Vídeos</a></li>
+                <li style="display: inline-block;"><a href="formulario.html">Formulário</a></li>
+            </ul>
+        </nav>
+
+        <br />
+
+    </header>
+
+    <div class="main2">
+
+        <main>
+
+            <h2 style="color: #ffffff; font-size: 50px;">Formulário de informações</h2>
+
+            <br /><br />
+
+            <p style="color: #ffffff; font-size: 25px;">Coloque seus dados em nosso formulário para receber mais
+                informações
+                do
+                nosso jogo e se tornar um novo néfalem!</p>
+
+            <br /><br /><br /><br />
+
+            <div class="formulario">
+
+                <form style="color: #ffffff;">
+
+                    <fieldset style="color: #ffffff;">
+
+                        <legend>Formulário para informações</legend>
+
+                        <br />
+
+                        <label for="idnome">Digite seu nome: </label>
+                        <input type="text" id="idnome" style="padding: 4px;" />
+
+                        <br /><br />
+
+                        <label for="idnasc">Digite sua data de nascimento: </label>
+                        <input type="date" id="idnasc" style="padding: 4px;" />
+
+                        <br /><br />
+
+                        <label for="idnum">Indique quantos jogos Diablo você já jogou: </label>
+                        <input type="number" id="idnum" min="0" max="5" style="padding: 4px;" />
+
+                        <br /><br />
+
+                        <label for="idemail">Digite seu e-mail: </label>
+                        <input type="email" id="idemail" placeholder="Digite seu e-mail" style="padding: 4px;" />
+
+                        <br /><br />
+
+                        <label for="idnota">Nos diga o quanto você conhece sobre o mundo de Diablo: (de 1 a 10) </label>
+
+                        <br /> <br />
+
+                        <input type="range" id="idnota" min="1" max="10" />
+
+                        <br />
+
+                        <p> Marque sua classe favorita para receber mais informações sobre ela:</p>
+
+                        <br />
+
+                        <input type="radio" name="classe" id="iddruida" />
+                        <label for="iddruida"> Druida</label>
+
+                        <input type="radio" name="classe" id="idmfeiti" />
+                        <label for="idfeiti"> Feiticeiro</label>
+
+                        <input type="radio" name="classe" id="idren" />
+                        <label for="idren"> Renegado</label>
+
+                        <input type="radio" name="classe" id="idnecro" />
+                        <label for="idnecro"> Necromante</label>
+
+                        <input type="radio" name="classe" id="idbarb" />
+                        <label for="idbarb"> Bárbaro</label>
+
+                        <br /><br />
+
+                        <input type="submit" value="Enviar" style="padding: 5px 8px 5px 8px; margin-right: 5px;" />
+
+                        <input type="reset" value="Apagar" style="padding: 5px 8px 5px 8px; margin-left: 5px" />
+
+                        <br /><br />
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+            <img src="imagens/classes.png"
+                alt="Imagem contendo os personagens das classes feiticeiro, bárbaro, necromante, renegado e druida" />
+
+            <br /><br /><br />
+
+        </main>
+
+    </div>
+
+
+
+    <footer>
+
+        <br />
+
+        <p><strong>Copyright &copy; 2024 Diablo IV. Todos os direitos reservados.</strong></p>
+
+        <br />
+
+    </footer>
+
+</body>
+
+</html>

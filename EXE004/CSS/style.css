@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;    
+}
+
+:root {
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #818881;
+    --vermelho: #EC0C09;
+    --amarelo: #F7FF09;
+    --azulclaro: #ABE4EC;
+    --azulescuro: #062276;
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--azulescuro);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--preto);
+    background-color: var(--branco);
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    background-color: var(--azulescuro);
+}
+
+header {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    text-align: center;
+    margin: 0;
+    padding: auto;
+    border: 0;
+    position: relative;
+}
+
+nav {
+    background-color: var(--vermelho);
+    margin: 0;
+    padding: 15px 10px 15px 10px;
+    border: 0;
+    text-align: center;
+    color: var(--branco);
+}
+
+nav a {
+    background-color: var(--vermelho);
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+main {
+    height: 100%;
+    margin: 1%;
+    padding: 2%;
+    box-shadow: 0 0 10px;
+    border-radius: 8px;
+    text-indent: 5px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+footer {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    text-align: center;
+    margin: 0;
+    padding: 15px 10px 15px 10px;
+    border: 0;
+
+    position: relative;
+}
+
+form {
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 700px;
+    height: 450px;
+    
+}
+
+.formulario {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    width: 55%;
+}
+
+.p1 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p2 {
+    text-align: center;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p3 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p4 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p5 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p6 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.p7 {
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+}
+
+.videos {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    border: auto;
+}
+
+
+
+
+
